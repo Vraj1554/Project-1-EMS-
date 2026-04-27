@@ -13,7 +13,7 @@ const LoginLanding = () => {
             icon: ShieldIcon
         },
         {
-            to: "/login/employees",
+            to: "/login/employee",
             title: "Employee Portal",
             description: "View your profile, track attendence, request time off, and access payslips.",
             icon: UserIcon
@@ -56,6 +56,9 @@ const LoginLanding = () => {
                  </div>
 
                  {/* Footer */}
+                 <div className="mt-12 text-center md:text-left text-sm text-slate-400">
+                    <p> {new Date().getFullYear()} Vraj Patel. Learning Web Development. </p>
+                 </div>
 
             </div>
         
